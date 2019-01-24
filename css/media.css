@@ -1,0 +1,8 @@
+@media screen and (max-width:1224px){
+    body {width: 850px;}
+    .content {margin: 1%;}
+    transform:1s;
+}
+@media screen and (orientation: portrait){
+    body {width: 98%;}
+}

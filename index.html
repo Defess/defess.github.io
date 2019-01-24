@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/media.css" type="text/css" rel="stylesheet">
+    <!--    jquery      -->
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <!--    end jquery     -->
+
+    <script>
+        $(document).ready(function() {
+            $(".avatar").click(function() {
+                $("#full-avatar").show();
+                $("#full-avatar-img").show();
+            });
+            $("#full-avatar").click(function() {
+                $("#full-avatar").hide();
+                $("#full-avatar-img").hide();
+            })
+        });
+
+    </script>
+</head>
+
+<body>
+    <div id="body">
+        <div class="content">
+            <div class="avatar">
+                <img src="images/123.jpg" width="100%" >
+            </div>
+            <div class="shortstory"><span>Я, Бочкарев Иван Николаевич, Родился 17 Декабря 1997 г. В городе Самара, закончил 9 классов, после поступил в колледж на специальность - "Програмиромание в компьютерных системах". обучался 4 года, закончил обучение, получил диплом и, все... привет и пока... </span></div>
+        </div>
+        <div id="full-avatar"><img id="full-avatar-img" src="images/123.jpg" alt="#"></div>
+        <div class="content">
+            <table>
+                <tr><td>sdfgs</td></tr>
+                <tr><td>sdfgs</td></tr>
+                <tr><td>sdfgs</td></tr>
+                <tr><td>sdfgs</td></tr>
+                <tr><td>sdfgs</td></tr>
+            </table>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+
+</html>
